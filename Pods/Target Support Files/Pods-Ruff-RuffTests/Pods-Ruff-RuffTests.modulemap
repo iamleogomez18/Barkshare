@@ -1,0 +1,6 @@
+framework module Pods_Ruff_RuffTests {
+  umbrella header "Pods-Ruff-RuffTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
