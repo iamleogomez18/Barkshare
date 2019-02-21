@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s8u-gj-MI1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s8u-gj-MI1">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
-        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -126,7 +123,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In As" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHJ-kE-LBi">
-                                <rect key="frame" x="149" y="104" width="76" height="20.5"/>
+                                <rect key="frame" x="149.5" y="104" width="76" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -191,7 +188,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9aO-MC-YQ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="893.60000000000002" y="841.52923538230891"/>
+            <point key="canvasLocation" x="985" y="842"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="Kgm-gD-fPK">
@@ -442,7 +439,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="622"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZYH-SE-O2M">
-                                        <rect key="frame" x="8" y="315" width="359" height="126"/>
+                                        <rect key="frame" x="8" y="314.5" width="359" height="126"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="359" id="Ccg-Rv-eOx"/>
                                             <constraint firstAttribute="height" constant="126" id="XWF-az-dCt"/>
@@ -607,7 +604,7 @@
                                 <blurEffect style="light"/>
                             </visualEffectView>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="cms-Ru-Lkj">
-                                <rect key="frame" x="137" y="116" width="100" height="100"/>
+                                <rect key="frame" x="137.5" y="116" width="100" height="100"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="O8y-68-DYg"/>
@@ -1087,7 +1084,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZ7-Wb-sR2">
-                                        <rect key="frame" x="8" y="315" width="359" height="126"/>
+                                        <rect key="frame" x="8" y="314.5" width="359" height="126"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="126" id="LN3-5H-q1r"/>
                                             <constraint firstAttribute="width" constant="359" id="fGX-kN-CcT"/>
@@ -1145,13 +1142,13 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hYu-gp-ARS">
                                         <rect key="frame" x="282" y="252" width="73.5" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Gp-CY-07V">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Gp-CY-07V">
                                                 <rect key="frame" x="0.0" y="0.0" width="15.5" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="00.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5G-Ac-WST">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z5G-Ac-WST">
                                                 <rect key="frame" x="20.5" y="0.0" width="53" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                                 <nil key="textColor"/>
@@ -1211,11 +1208,11 @@
         <image name="dog2" width="1920" height="1200"/>
         <image name="imageIcon" width="927" height="720"/>
         <image name="pete-bellis-324941-unsplash" width="6016" height="4000"/>
-        <image name="profile" width="1024" height="1024"/>
-        <image name="signup" width="1920" height="1200"/>
+        <image name="profile" width="245.75999450683594" height="245.75999450683594"/>
+        <image name="signup" width="1440" height="900"/>
         <image name="signup2 copy" width="1920" height="1200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ssZ-6C-hYY"/>
+        <segue reference="OCv-Sh-aLb"/>
     </inferredMetricsTieBreakers>
 </document>
